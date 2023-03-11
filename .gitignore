@@ -23,3 +23,6 @@ go.work
 *.swo
 *.swp
 .DS_Store
+
+# Documents of leetcode
+leetcode/editor/en/doc/
