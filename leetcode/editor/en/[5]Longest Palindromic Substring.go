@@ -26,12 +26,16 @@ package main
 // leetcode submit region begin(Prohibit modification and deletion)
 import "strings"
 
-func reverse(s string) string {
-	rs := []rune(s)
-	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
-		rs[i], rs[j] = rs[j], rs[i]
+func isPalindromic(s string) bool {
+	n := len(s)
+	for i := 0; i < n; i++ {
+		s1 := s[i : i+1]
+		s2 := s[n-i-1 : n-i]
+		if s1 != s2 {
+			return false
+		}
 	}
-	return string(rs)
+	return true
 }
 
 func longestPalindrome(s string) string {
@@ -68,7 +72,7 @@ func longestPalindrome(s string) string {
 				resultLen = 1
 				break
 			}
-			if len(str) > resultLen && str == reverse(str) {
+			if len(str) > resultLen && isPalindromic(str) {
 				result = str
 				resultLen = len(str)
 				break
