@@ -3,6 +3,16 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/en/[10]Regular Expression Matching.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="frontendQuestionId" value="leetcode.com10" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/en/[10]Regular Expression Matching.go" />
+              <option name="titleSlug" value="regular-expression-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/en/[1]Two Sum.go">
           <value>
             <LeetcodeEditor>
